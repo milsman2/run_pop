@@ -27,14 +27,14 @@ pgadmin4:
       cert-manager.io/cluster-issuer: "staging-issuer-amd64"
     ingressClassName: "nginx"
     hosts:
-      - host: pop-run-pgadmin4.precasttoolkit.com
+      - host: run-pop-pgadmin4.precasttoolkit.com
         paths:
           - path: /
             pathType: Prefix
     tls:
       - secretName: run-pop-pgadmin4-tls-staging-v1
         hosts:
-          - pop-run-pgadmin4.precasttoolkit.com
+          - run-pop-pgadmin4.precasttoolkit.com
   env:
     enhanced_cookie_protection: "False"
     email: "milsman2@gmail.com"
