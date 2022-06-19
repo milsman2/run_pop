@@ -25,13 +25,7 @@ const Header = () => {
         </div>
         <div className={`animate-fade-in-down w-full ${toggleMenu ? "block" : "hidden"} flex-grow lg:flex lg:items-center lg:w-auto`}>
             <div className="text-sm lg:flex">
-                <a href={"https://fastapi.precasttoolkit.com/docs"} target={"_blank"} rel={"noreferrer"}
-                    className="block mt-4 lg:inline-block lg:mt-0 text-white mx-4">
-                    API Docs
-                </a>
-            </div>
-            <div className="text-sm lg:flex">
-                <a href={"https://github.com/milsman2/the-precast-toolkit-fs"} target={"_blank"} rel={"noreferrer"}
+                <a href={"https://github.com/milsman2/run_pop"} target={"_blank"} rel={"noreferrer"}
                     className="block mt-4 lg:inline-block lg:mt-0 mx-4 text-white">
                     Git Repo
                 </a>
