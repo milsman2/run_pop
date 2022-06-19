@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: run-pop-frontend
+  namespace: run-pop
+spec:
+  type: ClusterIP
+  selector:
+    app: run-pop-frontend
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
