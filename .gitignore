@@ -1,0 +1,5 @@
+run_pop_kubegres/run-pop-postgres-secret.yaml
+run-pop-pgadmin4/pgadmin-secret.yaml
+run-pop-mysql/mysql-secret.yaml
+run-pop-umami/umami-config.yaml
+run-pop-kube-backend/fastapi-secret.yaml
