@@ -24,7 +24,7 @@ pgadmin4:
   ingress:
     enabled: true
     annotations:
-      cert-manager.io/cluster-issuer: "staging-issuer-amd64"
+      cert-manager.io/cluster-issuer: "prod-issuer-amd64"
     ingressClassName: "nginx"
     hosts:
       - host: run-pop-pgadmin4.kanebroslab.com
@@ -32,7 +32,7 @@ pgadmin4:
           - path: /
             pathType: Prefix
     tls:
-      - secretName: run-pop-pgadmin4-tls-staging-v1
+      - secretName: run-pop-pgadmin4-tls-prod-v1
         hosts:
           - run-pop-pgadmin4.kanebroslab.com
   env:
