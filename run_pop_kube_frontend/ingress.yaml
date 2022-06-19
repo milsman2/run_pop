@@ -4,13 +4,13 @@ metadata:
   name: run-pop-frontend-ingress
   namespace: run-pop
   annotations:
-    cert-manager.io/cluster-issuer: 'staging-issuer-amd64'
+    cert-manager.io/cluster-issuer: 'prod-issuer-amd64'
 spec:
   ingressClassName: nginx
   tls:
   - hosts:
     - runpop.kanebroslab.com
-    secretName: run-pop-frontend-tls-staging-v1
+    secretName: run-pop-frontend-tls-prod-v1
   rules:
   - host: runpop.kanebroslab.com
     http:
