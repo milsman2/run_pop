@@ -24,15 +24,15 @@ export const extendedApiSlice = apiSlice.injectEndpoints({
             ]
         }),
         getCastIronById: builder.query({
-            query: runId => `/api/v1/all-runs/${runId}`,
+            query: runId => `/api/v1/runs/${runId}`,
             transformResponse: responseData => {
-                const loadedRuns = responseData.map(castIron => {
-                    return castIron;
+                const loadedRuns = responseData.map(run => {
+                    return run;
                 });
                 return runsAdapter.setAll(initialState, loadedRuns)
             },
             providesTags: (result, error, arg) => [
-                ...result.ids.map(id => ({ type: 'Cast Iron', id }))
+                ...result.ids.map(id => ({ type: 'Run', id }))
             ]
         }),
     })
