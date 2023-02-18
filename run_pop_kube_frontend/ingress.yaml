@@ -10,7 +10,7 @@ spec:
   tls:
   - hosts:
     - runpop.kanebroslab.com
-    secretName: run-pop-frontend-tls-prod-v1
+    secretName: run-pop-frontend
   rules:
   - host: runpop.kanebroslab.com
     http:
