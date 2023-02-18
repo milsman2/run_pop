@@ -2,10 +2,9 @@ import type { NextPageWithLayout } from './_app';
 import { Layout } from '@/components/Layout';
 
 const Home: NextPageWithLayout = () => {
-
   return (
     <article className="flex flex-col flex-1 items-center justify-evenly bg-black text-slate-300">
-      Hi
+      Welcome to Run Pop!
     </article>
   );
 };
