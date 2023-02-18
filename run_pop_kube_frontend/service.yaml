@@ -8,6 +8,6 @@ spec:
   selector:
     app: run-pop-frontend
   ports:
-    - port: 80
-      targetPort: 80
+    - port: 3000
+      targetPort: 3000
       protocol: TCP
