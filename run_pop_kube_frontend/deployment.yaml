@@ -17,7 +17,7 @@ spec:
         nodeCategory: worker
       containers:
         - name: run-pop-frontend
-          image: milsman2/run-pop-frontend:v2023.02.18.2
+          image: milsman2/run-pop-frontend:v2023.02.18.3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80

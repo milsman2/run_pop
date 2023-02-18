@@ -8,7 +8,7 @@ export function Header(): ReactElement {
         <Link className="normal-case text-xl text-slate-100" href="/">
           Run Pop
         </Link>
-        <a href="https://github.com/milsman2/kane-bros-lab" className="mx-2">
+        <a href="https://github.com/milsman2/run_pop" className="mx-2">
           Github
         </a>
       </div>
