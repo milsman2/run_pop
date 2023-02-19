@@ -8,6 +8,7 @@ const Home: NextPageWithLayout = () => {
         Welcome to Run Pop!
       </h1>
       <h1 className='text-lg'>The DevOps driven tracker of advanced metrics for Pops.</h1>
+      <strong>More content coming soon.</strong>
     </article>
   );
 };
