@@ -2,7 +2,7 @@ import { ReactElement } from 'react';
 
 export function Footer(): ReactElement {
   return (
-    <footer className="bg-slate-800">
+    <footer className="bg-maroon">
       <a
         href="https://blog.kanebroslab.com"
         className="flex flex-col flex-1 items-center justify-center text-slate-100 p-2"

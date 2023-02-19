@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export function Header(): ReactElement {
   return (
-    <div className="navbar bg-slate-800">
+    <div className="navbar bg-maroon">
       <div className="navbar-start">
         <Link className="normal-case text-xl text-slate-100" href="/">
           Run Pop
